@@ -191,7 +191,7 @@ String rslt_msg = "";
 // }
 
 // String gen_url_data(float t_in1, float t_in2, float t_in3, float t_in4, float t_in5, float t_out, float rh1, float rh2, double adc, double volt) {
-//   String url = "http://api.jateworkspace.com/coolroom/data.php?";
+//   String url = "http://yourURL/coolroom/data.php?";
 //   url = url+"t-in1="+t_in1+"&t-in2="+t_in2+"&t-in3="+t_in3+"&t-in4="+t_in4+"&t-in5="+t_in5+"&t-out="+t_out+"&rh1="+rh1+"&rh2="+rh2+"&kWh="+String(adc, 5)+"&name="+site_name+"&volt="+volt;
 //   return url;
 // }
@@ -205,7 +205,7 @@ String rslt_msg = "";
 //   {
 //     door_status = 1;
 //   }
-//   String url = "http://api.jateworkspace.com/coolroom/door.php?";
+//   String url = "http://yourURL/coolroom/door.php?";
 //   if (timer == 0)
 //   {url = url+"name="+site_name+"&status="+door_status;}
 //   else
@@ -214,7 +214,7 @@ String rslt_msg = "";
 // }
 
 // String gen_url_register() {
-//   String url ="http://api.jateworkspace.com/coolroom/register.php?name=";
+//   String url ="http://yourURL/coolroom/register.php?name=";
 //   url = url+site_name+"&t-alert="+Temp_alert+"&v-alert="+Volt_alert;
 //   return url;
 // }
